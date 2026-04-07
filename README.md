@@ -5,14 +5,14 @@ Identifies the affirmative bias of VLMs when processing negation and improves de
 ### 📚 Link to Dataset (CoVAND): [Link](https://huggingface.co/datasets/2na-97/CoVAND)
 
 -----
-### CoVAND Dataset Information
+### CoVAND Dataset
 <p align="center">
   <img src="docs/figures/CoVAND.jpg" alt="CoVAND Teaser" width="100%0px">
   <br>
   <em>Dataset Generation Pipeline of the COVAND. Our method first generates negation-focused captions for visually prompted regions using a three-step CoT process, then aligns each caption with the correct bounding box via VQA-based reasoning to ensure semantic correspondence.</em>
 </p>
 
-### CoVAND Dataset Information
+### NegToMe Training Pipeline
 <p align="center">
   <img src="docs/figures/negationVLM.jpg" alt="NegToMe Teaser" width="100%0px">
   <br>
